@@ -1,0 +1,13 @@
+@import url('/Css/Header.css');
+@import url('/Css/Main.css');
+@import url('/Css/DibujosGrafos.css');
+@import url('/Css/DibujoArbol.css');
+@import url('/Css/DibujoABinario.css');
+
+body{
+    background-color: rgb(101, 23, 173);
+}
+
+.desactivado{
+    display: none !important;
+}

@@ -1,0 +1,247 @@
+
+
+#Arbol{
+    width: 80%;
+    background-color: rgb(127, 129, 255);
+    display: grid;
+    justify-items: center;
+}
+
+#Datos{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(58, 0, 165);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#modificarAltura{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+#modificarAltura button{
+   background-color: #545fff;
+   color: #9fa6ff;
+   font-size: 15px;
+   border: 2px solid #000000;
+}
+
+#modificarAltura button:hover{
+    background-color: #1726ff;
+    color: #ffffff;
+ }
+
+#modificarAltura h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(255, 255, 255);
+}
+
+#ConvertiraArbol{
+    width: 90%;
+    height: 25%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ConvertiraArbol label{
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(255, 255, 255);
+}
+
+#ConvertirA{
+    width: 50%;
+    background-color: #6554ff;
+    color: #9fa1ff;
+    font-size: 15px;
+    border: 2px solid #000000;
+}
+
+#ConvertirA:hover{
+    background-color: #5517ff;
+    color: #ffffff;
+ }
+
+#TextoConvertir{
+    width: 90%;
+    margin-block: 5%;
+    background-color: #9fa6ff;
+    border: 2px solid #000000;
+    color: rgba(62, 0, 133, 0.952);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+}
+
+#ConvertirDeArbol{
+    border-top: 2px solid black;
+    width: 90%;
+    height: 25%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ConvertirDeArbol label{
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(255, 255, 255);
+}
+
+#ConvertirDe{
+    width: 50%;
+    background-color: #9e54ff;
+    color: #b99fff;
+    font-size: 15px;
+    border: 2px solid #000000;
+}
+
+#ConvertirDe:hover{
+    background-color: #8f17ff;
+    color: #ffffff;
+ }
+
+#MostrarConvertir{
+    width: 90%;
+    margin-block: 5%;
+    background-color: #b49fff;
+    border: 2px solid #000000;
+    color: rgba(91, 0, 133, 0.952);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+}
+
+#SeleccionarOrden{
+    width: 90%;
+    height: 10%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#SeleccionarOrden label{
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(255, 255, 255);
+}
+
+#Order{
+    height:auto;
+    margin-block: 5%;
+    background-color: #d49fff;
+    border: 2px solid #000000;
+    color: rgba(84, 0, 133, 0.952);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 15px;
+}
+
+#SeleccionarModo{
+    width: 90%;
+    height: 15%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Modo{
+    margin-block: 5%;
+    background-color: #9fc5ff;
+    border: 2px solid #000000;
+    color: rgba(0, 73, 133, 0.952);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 15px;
+}
+
+#SeleccionarModo label{
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(255, 255, 255);
+}
+
+[id^="contenedor"]{
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center !important; 
+    align-items: center !important;   
+}
+
+#deleteAltura, #addAltura{
+    align-self: center;
+    width: 25%;
+    height: 25%;
+}
+
+[id^="addNodo"] {
+    background-color: #007bff; 
+    border: none; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    width: 50px;              
+    height: 50px;              
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+[id^="addNodo"]:hover {
+    background-color: #0056b3;
+}
+
+[id^="nBinario"] {
+    background-color: #ffffff; 
+    border: none; 
+    color: rgb(0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    width: 25px;              
+    height: 25px;              
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 10;
+    /*text-shadow: 2px 2px 4px rgb(255, 255, 255), -2px -2px 5px rgb(255, 255, 255);*/
+}
+
+[id^="nBinario"]:hover {
+    background-color: #75a0ce;
+}
+
+.bArista{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    border: none;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.txt{
+    min-width: 25px;
+    width: auto;
+}

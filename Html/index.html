@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/Index.css">
+    <link rel="icon" href="/img/icons8-tree-structure2-48.png" type="image/x-icon">
+    <title>Arboles</title>
+</head>
+<body>
+    <Header>
+        <div id="CrearNodo" class="Herramienta">
+           <Button><img src="/img/icons8-circle-48.png" alt=""></Button>
+        </div>
+        <div id="CrearArista" class="Herramienta">
+           <button><img src="/img/icons8-polyline-64.png" alt=""></button>
+        </div>
+        <div id="MoverNodo" class="Herramienta">
+           <button><img src="/img/icons8-hand-drag-48.png" alt=""></button>
+        </div>
+        <div id="EliminarNodo" class="Herramienta">
+           <button><img src="/img/icons8-x-48.png" alt=""></button>
+        </div>
+        <div id="CambiarPeso" class="Herramienta">
+            <button><img src="/img/icons8-weight-50.png" alt=""></button>
+        </div>
+        <div id="SeleccionarRaiz" class="selectores">
+            <button>Seleccionar Raiz</button>
+        </div>
+        <div id="CrearArbol" class="Crear">
+            <button><img src="/img/icons8-tree-structure-48.png" alt=""></button>
+        </div>
+        <div class="selectores" id="busqueda_contenedor">
+            <select name="Busqueda" id="Busqueda">
+                <option value="Ancho" selected>Ancho</option>
+                <option value="Profundidad">Profundidad</option>
+                <option value="Prim">Minima</option>
+            </select>
+            <input type="text" placeholder="Orden" id="Orden" name="Orden">
+        </div>
+        <div class="MostrarPesos" id="mostrarPesos">
+            <div class="mPesos">
+                <label for="Pesos">Pesos</label>
+            </div>
+            <div class="mPesos">
+                <input type="text" id="Pesos" name="Pesos" readonly>
+            </div>
+        </div>
+        <div class="CambiarModo" id="Binario">
+            <button>
+                Modo Binario
+                <img src="/img/icons8-tree-structure3-48.png" alt="">
+            </button>
+        </div>
+        <div class="CambiarModo" id="Normal">
+            <button>
+                Modo Normal
+                <img src="/img/icons8-tree-structure2-48.png" alt="">
+            </button>
+        </div>
+    </Header>
+    <main>
+        <div id="DibujoGrafo">
+            
+        </div>
+        <div id="DibujoArbol">
+            
+        </div>
+        <div id="DibujoABinario" class="desactivado">
+            <div id="Arbol">
+                <div id="contenedorAA">
+                    <button id="addNodoAA">+</button>
+                </div>
+            </div>
+            <div id="Datos">
+                <div id="modificarAltura">
+                    <h4>Altura</h4>
+                    <button id="addAltura">+</button>
+                    <button id="deleteAltura">-</button>
+                </div>
+                <div id="ConvertiraArbol">
+                    <label for="TextoConvertir">Convertir A Arbol</label>
+                    <input id="TextoConvertir" type="text" placeholder="Texto a Convertir">
+                    <button id="ConvertirA">></button>
+                </div>
+                <div id="SeleccionarModo">
+                    <label for="Modo"> Selecciona el modo de conversion</label>
+                    <select name="Modo" id="Modo">
+                        <optgroup label="Ecuaciones">
+                            <option value="Entre-Orden">Entre-Orden</option>
+                        </optgroup>
+                        <optgroup label="Alfa Numericos">
+                            <option value="Menor - Mayor">Menor-Mayor</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div id="ConvertirDeArbol">
+                    <label for="MostrarConvertir">Convertir A Texto</label>
+                    <input id="MostrarConvertir" type="text" readonly>
+                    <button id="ConvertirDe">></button>
+                </div>
+                <div id="SeleccionarOrden">
+                    <label for="Order"> Selecciona el Orden</label>
+                    <select name="Order" id="Order">
+                        <option value="Pre-Orden">Pre-Orden</option>
+                        <option value="Entre-Orden">Entre-Orden</option>
+                        <option value="Post-Orden">Post-Orden</option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/JS/Script.js"></script>
+    <script src="/JS/Script2.js"></script>
+    <script src="/JS/Script3.js"></script>
+    <script src="/JS/Script4.js"></script>
+</body>
+</html>

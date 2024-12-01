@@ -1,0 +1,160 @@
+header{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+header div{
+    margin-inline: 0.2%;
+    width: 8.3%;
+} 
+
+header div.Herramienta button{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(44, 0, 66);
+    cursor: pointer;
+}
+
+header div button:active{
+    background-color:rgb(44, 29, 131);
+}
+
+header div button.active{
+    transform: scale(0.95);
+    background-color:rgb(44, 29, 131);
+}
+
+header div.selectores{
+    height: 9vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+    align-items: center;
+}
+
+header div.selectores div, .mPesos{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+header div.selectores button{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(44, 0, 66);
+    cursor: pointer;
+    color: rgb(221, 196, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+
+header .Herramienta button:active, header div button:active, header .Crear button:active{
+    background-color:rgb(44, 29, 131);
+}
+
+header .Herramienta button.active{
+    transform: scale(0.95);
+    background-color:rgb(44, 29, 131);
+}
+
+header div button.active{
+    transform: scale(0.95);
+    background-color:rgb(44, 29, 131);
+}
+
+header div.Crear button{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(44, 0, 66);
+    cursor: pointer;
+}
+
+#Busqueda, #Orden{
+    width: 95%;
+    height: 33%;
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 9, 87);
+    border-color: rgb(100, 70, 206);
+    border-radius: 5px;
+}
+
+#Busqueda:active, #Orden:active{
+    background-color: rgb(44, 29, 131);
+}
+
+#Busqueda:focus, #Orden:focus{
+    background-color: rgb(44, 29, 131);
+}
+
+.MostrarPesos {
+    height: 8vh;
+    margin: 1.5mm;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(44, 0, 66);
+    border-radius: 2%;
+    border-top: 2px solid rgb(77, 77, 77);
+    border-left: 2px solid rgb(77, 77, 77);
+}
+
+.mPesos{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.mPesos input{
+    width: 50%;
+    justify-self: center;
+    border-radius: 15%;
+    background-color: rgb(49, 9, 87);
+    border-color: rgb(117, 90, 211);
+    color: white;
+}
+
+.mPesos label{
+    text-align: center;
+    width: 100%;
+    color: rgb(174, 155, 223);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight:300;
+}
+
+.CambiarModo{
+    height: 9vh;
+}
+
+.CambiarModo button{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(44, 0, 66);
+}
+
+#Binario button{
+    color: #A97ED9;
+}
+
+#Normal button{
+    color: #887ED9;
+}
+
