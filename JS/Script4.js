@@ -133,7 +133,7 @@ function OrderEquation(i, j, str)
         addAltura.click();
         aNodo = document.getElementById(`addNodo${I}${J}`);
     }
-    if(str.length === 1) {
+    if(str.length === 1 || checkString(str)) {
         aNodo.click();
         aNodo.innerText = str;
         return;
@@ -146,6 +146,11 @@ function OrderEquation(i, j, str)
     OrderEquation(i+1, (j*2)-1, d1);
     OrderEquation(i+1, (j*2), d3);
     
+}
+
+function checkString(str) {
+    const rex = /^[A-Za-z0-9]+$/;
+    return rex.test(str);
 }
 
 function dividirStr(str)
