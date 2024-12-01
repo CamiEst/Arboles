@@ -1,8 +1,8 @@
-@import url('/Css/Header.css');
-@import url('/Css/Main.css');
-@import url('/Css/DibujosGrafos.css');
-@import url('/Css/DibujoArbol.css');
-@import url('/Css/DibujoABinario.css');
+@import url('Header.css');
+@import url('Main.css');
+@import url('DibujosGrafos.css');
+@import url('DibujoArbol.css');
+@import url('DibujoABinario.css');
 
 body{
     background-color: rgb(101, 23, 173);
